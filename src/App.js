@@ -5,6 +5,7 @@ import CollectionCard from "./components/CollectionCard";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import PunkList from "./components/PunkList";
+import Hero from "./components/Hero";
 
 function App() {
   const [punkListData, setpunkListData] = useState([]);
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <Hero/>
       <PunkList punkListData={punkListData} />
     </div>
   );
