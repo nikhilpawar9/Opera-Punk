@@ -75,7 +75,8 @@
 .ownerDetails {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: flex-end;
+  justify-self: end;
   flex: 1;
 }
 
